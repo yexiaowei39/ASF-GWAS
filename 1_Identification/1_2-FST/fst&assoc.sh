@@ -8,7 +8,7 @@ do
   $vcftools --gzvcf $vcffile_all --weir-fst-pop $case.txt --weir-fst-pop $control.txt --out ${group}_fst_chr$chr --fst-window-size 100000 --fst-window-step 10000
 
   # 2 assoc / allele frequence chi-square test
-  plink_data_out=./assoc/control/1/1_out/chr${chr}_out
-  $plink --bfile $plink_data_out --double-id --allow-no-sex --assoc --adjust --out $plink_control_1
+  plink_data_out=chr${chr}_case_pheno  # plink data  # with phenotype
+  $plink --bfile $plink_data_out --double-id --allow-no-sex --assoc --adjust --out $plink_out
   
 done
