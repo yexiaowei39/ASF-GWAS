@@ -3,7 +3,7 @@ group=1
 for chr in $(seq 1 18)
 do
 
-  plink_case_out=chr${chr}_case_pheno           ## with phenotype，474 individual
+  plink_case_out=chr${chr}_case_pheno           ## individual with phenotype
 
   ## GWAS
 
