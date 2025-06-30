@@ -2,7 +2,7 @@ library(data.table)
 options <- commandArgs(trailingOnly = TRUE)
 
 grm<-fread(options[1],h=F)
-size <- 474
+size <- 474   ## change with actual sample size
 grm_mat<-matrix(0,size,size)
 
 grm_mat[upper.tri(grm_mat,diag = T)]<-grm$V4
