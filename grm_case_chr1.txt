@@ -1,0 +1,17 @@
+chr2_case_grm_1
+chr3_case_grm_1
+chr4_case_grm_1
+chr5_case_grm_1
+chr6_case_grm_1
+chr7_case_grm_1
+chr8_case_grm_1
+chr9_case_grm_1
+chr10_case_grm_1
+chr11_case_grm_1
+chr12_case_grm_1
+chr13_case_grm_1
+chr14_case_grm_1
+chr15_case_grm_1
+chr16_case_grm_1
+chr17_case_grm_1
+chr18_case_grm_1
